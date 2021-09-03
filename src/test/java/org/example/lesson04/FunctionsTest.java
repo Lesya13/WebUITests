@@ -38,6 +38,11 @@ public class FunctionsTest {
     }
 
     @Test
+    void testIsNumberPositive() {
+        Assertions.assertFalse(functions.isNumberPositive(-1));
+    }
+
+    @Test
     @DisplayName("Проверка метода isPrime с непростым числом")
     void testNotPrimeNumber() {
         Assertions.assertFalse(functions.isPrime(4));

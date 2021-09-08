@@ -27,8 +27,11 @@ public class CounterpartiesPageObjectTest extends BaseCrmTest {
                 .fillJobTitle("The king of the North")
                 .saveAndCloseButton.click();
 
+
         webDriverWait.until(ExpectedConditions
                 .presenceOfElementLocated(By.xpath("//div[contains(text(),'Загрузка')]")));
+        webDriverWait.until(ExpectedConditions
+                .presenceOfElementLocated(By.xpath("//*[text()='Контактное лицо сохранено']")));
         assertThat(new CreateCounterpartiesPage(driver).requestSavedSuccessfullyContactFace, isDisplayed());
     }
 }

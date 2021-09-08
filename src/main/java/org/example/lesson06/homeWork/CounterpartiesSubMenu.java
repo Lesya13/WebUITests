@@ -18,19 +18,18 @@ public class CounterpartiesSubMenu extends BaseCrmView {
     @FindBy(xpath = "//a/span[contains(text(),'Контактные лица')]")
     public WebElement contactFacesRequestsMenuItem;
 
-    @FindBy(xpath = toCreateContactFaceButtonXpathLocator)
-    public WebElement toCreateContactFaceButton;
-
-    public void goToCounterpartiesRequestsPage() throws InterruptedException {
+    public void goToCounterpartiesRequestsPage() {
         counterpartiesRequestsMenuItem.click();
         contactFacesRequestsMenuItem.click();
+
         webDriverWait.until(ExpectedConditions
-                .elementToBeClickable(By.xpath(CounterpartiesSubMenu.toCreateContactFaceButtonXpathLocator)));
-        Thread.sleep(10000);
-        toCreateContactFaceButton.click();
+                .presenceOfElementLocated(By.xpath(CounterpartiesSubMenu.loader)));
+        webDriverWait.until(ExpectedConditions
+                .invisibilityOfElementLocated(By.xpath(CounterpartiesSubMenu.loader)));
+
         webDriverWait.until(ExpectedConditions
                 .presenceOfElementLocated(By.xpath(CounterpartiesRequestPage.createCounterpartiesXpathLocator)));
     }
 
-    public static final String toCreateContactFaceButtonXpathLocator = "//a[@title='Создать контактное лицо']";
+    public static final String loader = "//div[@class='loader-mask shown']";
 }

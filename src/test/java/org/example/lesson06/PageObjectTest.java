@@ -1,5 +1,7 @@
 package org.example.lesson06;
 
+import io.qameta.allure.Description;
+import io.qameta.allure.Story;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -7,9 +9,11 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static ru.yandex.qatools.htmlelements.matchers.WebElementMatchers.isDisplayed;
 
+@Story("Заявки на расходы")
 public class PageObjectTest extends BaseTest {
 
     @Test
+    @Description("Тест логина и заявки на расход")
     void loginInCrmWithPageObjectTest() throws InterruptedException {
         driver.get("https://crm.geekbrains.space/");
         new LoginPage(driver)

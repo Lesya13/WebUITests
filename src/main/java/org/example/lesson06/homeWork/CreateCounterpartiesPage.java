@@ -1,5 +1,6 @@
 package org.example.lesson06.homeWork;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -15,6 +16,7 @@ public class CreateCounterpartiesPage extends BaseCrmView {
     @FindBy(name = "crm_contact[lastName]")
     public WebElement lastName;
 
+    @Step("Заполнить фамилию")
     public CreateCounterpartiesPage fillLastName(String inputLastName) {
         lastName.sendKeys(inputLastName);
         return this;
@@ -23,6 +25,7 @@ public class CreateCounterpartiesPage extends BaseCrmView {
     @FindBy(name = "crm_contact[firstName]")
     public WebElement firstName;
 
+    @Step("Заполнить имя")
     public CreateCounterpartiesPage fillFirstName(String inputFirstName) {
         firstName.sendKeys(inputFirstName);
         return this;
@@ -37,6 +40,7 @@ public class CreateCounterpartiesPage extends BaseCrmView {
     @FindBy(xpath = "//div[@class='select2-result-label']")
     public WebElement chosenOrganizationClickable;
 
+    @Step("Выбрать организацию")
     public CreateCounterpartiesPage selectOrganizationName(String organizationName) {
         fillOrganizationName.click();
         webDriverWait.until(ExpectedConditions
@@ -53,6 +57,7 @@ public class CreateCounterpartiesPage extends BaseCrmView {
     @FindBy(name = "crm_contact[jobTitle]")
     public WebElement jobTitle;
 
+    @Step("Выбрать наименование должности")
     public CreateCounterpartiesPage fillJobTitle(String jobName) {
         jobTitle.sendKeys(jobName);
         webDriverWait.until(ExpectedConditions

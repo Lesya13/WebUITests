@@ -1,0 +1,102 @@
+{
+  "uid" : "4d39bc2ff08d2b55",
+  "name" : "userWillCanToDeleteExistingProject()",
+  "fullName" : "org.example.lesson05.homeWork.CreateCrmUserTest.userWillCanToDeleteExistingProject",
+  "historyId" : "df1f60347585a76e7183292241378b0",
+  "time" : {
+    "start" : 1631632316115,
+    "stop" : 1631632348077,
+    "duration" : 31962
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "registerDriver",
+    "time" : {
+      "start" : 1631632242096,
+      "stop" : 1631632242111,
+      "duration" : 15
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setupBrowser",
+    "time" : {
+      "start" : 1631632316115,
+      "stop" : 1631632324259,
+      "duration" : 8144
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1631632347978,
+      "stop" : 1631632348077,
+      "duration" : 99
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "192.168.0.7"
+  }, {
+    "name" : "thread",
+    "value" : "74505@192.168.0.7.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "org.example.lesson05.homeWork.CreateCrmUserTest"
+  }, {
+    "name" : "testClass",
+    "value" : "org.example.lesson05.homeWork.CreateCrmUserTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "userWillCanToDeleteExistingProject"
+  }, {
+    "name" : "suite",
+    "value" : "org.example.lesson05.homeWork.CreateCrmUserTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4d39bc2ff08d2b55.json",
+  "parameterValues" : [ ]
+}

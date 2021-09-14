@@ -1,5 +1,6 @@
 package org.example.lesson06.homeWork;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -14,6 +15,7 @@ public class CounterpartiesRequestPage extends BaseCrmView {
     @FindBy(xpath = createCounterpartiesXpathLocator)
     public WebElement createCounterpartiesButton;
 
+    @Step("Создать контрагента")
     public CreateCounterpartiesPage createCounterparties() {
         createCounterpartiesButton.click();
         webDriverWait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(CreateCounterpartiesPage.saveAndCloseButtonXpathLocator)));

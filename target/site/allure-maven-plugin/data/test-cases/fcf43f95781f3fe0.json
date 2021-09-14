@@ -1,0 +1,492 @@
+{
+  "uid" : "fcf43f95781f3fe0",
+  "name" : "loginInCrmWithCounterpartiesPageObjectTest()",
+  "fullName" : "org.example.lesson06.homeWork.CounterpartiesPageObjectTest.loginInCrmWithCounterpartiesPageObjectTest",
+  "historyId" : "2f30c49aea7c92330ee2aa9127205ebd",
+  "time" : {
+    "start" : 1631632443024,
+    "stop" : 1631632464265,
+    "duration" : 21241
+  },
+  "description" : "Тест логина и создание нового контрагента",
+  "descriptionHtml" : "<p>Тест логина и создание нового контрагента</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "registerDriver",
+    "time" : {
+      "start" : 1631632443008,
+      "stop" : 1631632443022,
+      "duration" : 14
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "initDriver",
+    "time" : {
+      "start" : 1631632443025,
+      "stop" : 1631632444244,
+      "duration" : 1219
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Тест логина и создание нового контрагента",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Заполнить поле логина",
+      "time" : {
+        "start" : 1631632447442,
+        "stop" : 1631632447535,
+        "duration" : 93
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "login",
+        "value" : "Applanatest1"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Заполнить поле пароля",
+      "time" : {
+        "start" : 1631632447535,
+        "stop" : 1631632447596,
+        "duration" : 61
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "password",
+        "value" : "Student2020!"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Клик на кнопку входа",
+      "time" : {
+        "start" : 1631632447596,
+        "stop" : 1631632453244,
+        "duration" : 5648
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click on element with text: Войти",
+        "time" : {
+          "start" : 1631632447621,
+          "stop" : 1631632447621,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "b2ef1f2d9c10407f",
+        "name" : "Screenshot of page",
+        "source" : "b2ef1f2d9c10407f.png",
+        "type" : "image/png",
+        "size" : 51290
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Открыть навигационное меню",
+      "time" : {
+        "start" : 1631632453244,
+        "stop" : 1631632453386,
+        "duration" : 142
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Перейти на страницу контраагенты",
+      "time" : {
+        "start" : 1631632453390,
+        "stop" : 1631632456249,
+        "duration" : 2859
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click on element with text: Контрагенты",
+        "time" : {
+          "start" : 1631632453410,
+          "stop" : 1631632453410,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Click on element with text: Контактные лица",
+        "time" : {
+          "start" : 1631632453731,
+          "stop" : 1631632453731,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "2799edc2900a0f13",
+        "name" : "Screenshot of page",
+        "source" : "2799edc2900a0f13.png",
+        "type" : "image/png",
+        "size" : 116752
+      }, {
+        "uid" : "15450f24c01184cd",
+        "name" : "Screenshot of page",
+        "source" : "15450f24c01184cd.png",
+        "type" : "image/png",
+        "size" : 116752
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Создать контрагента",
+      "time" : {
+        "start" : 1631632456281,
+        "stop" : 1631632458227,
+        "duration" : 1946
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click on element with text: Создать контактное лицо",
+        "time" : {
+          "start" : 1631632456303,
+          "stop" : 1631632456304,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "a0beb1df1325582",
+        "name" : "Screenshot of page",
+        "source" : "a0beb1df1325582.png",
+        "type" : "image/png",
+        "size" : 336148
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Заполнить фамилию",
+      "time" : {
+        "start" : 1631632458227,
+        "stop" : 1631632458285,
+        "duration" : 58
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "inputLastName",
+        "value" : "Snow"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Заполнить имя",
+      "time" : {
+        "start" : 1631632458285,
+        "stop" : 1631632458344,
+        "duration" : 59
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "inputFirstName",
+        "value" : "Jon"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Выбрать организацию",
+      "time" : {
+        "start" : 1631632458344,
+        "stop" : 1631632460611,
+        "duration" : 2267
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click on element with text: Укажите организацию",
+        "time" : {
+          "start" : 1631632458367,
+          "stop" : 1631632458367,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Click on element with text: Bins-Haley",
+        "time" : {
+          "start" : 1631632460327,
+          "stop" : 1631632460327,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "7e976c7b043a9ae5",
+        "name" : "Screenshot of page",
+        "source" : "7e976c7b043a9ae5.png",
+        "type" : "image/png",
+        "size" : 201560
+      }, {
+        "uid" : "f511d2319eee8587",
+        "name" : "Screenshot of page",
+        "source" : "f511d2319eee8587.png",
+        "type" : "image/png",
+        "size" : 209015
+      } ],
+      "parameters" : [ {
+        "name" : "organizationName",
+        "value" : "Bins-Haley"
+      } ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Выбрать наименование должности",
+      "time" : {
+        "start" : 1631632460612,
+        "stop" : 1631632460723,
+        "duration" : 111
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "jobName",
+        "value" : "The king of the North"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Click on element with text: Сохранить и закрыть",
+      "time" : {
+        "start" : 1631632460742,
+        "stop" : 1631632460742,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "217a8fe5bf440858",
+      "name" : "Screenshot of page",
+      "source" : "217a8fe5bf440858.png",
+      "type" : "image/png",
+      "size" : 205796
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 17,
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1631632464158,
+      "stop" : 1631632464265,
+      "duration" : 107
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9c763fde9219fae9",
+      "name" : "Element of browser log",
+      "source" : "9c763fde9219fae9.txt",
+      "type" : "text/plain",
+      "size" : 112
+    }, {
+      "uid" : "878734577602e258",
+      "name" : "Element of browser log",
+      "source" : "878734577602e258.txt",
+      "type" : "text/plain",
+      "size" : 112
+    }, {
+      "uid" : "7bb14f4772d302c6",
+      "name" : "Element of browser log",
+      "source" : "7bb14f4772d302c6.txt",
+      "type" : "text/plain",
+      "size" : 112
+    }, {
+      "uid" : "56ba1347eebd7637",
+      "name" : "Element of browser log",
+      "source" : "56ba1347eebd7637.txt",
+      "type" : "text/plain",
+      "size" : 112
+    }, {
+      "uid" : "d54bead4b63dc9a5",
+      "name" : "Element of browser log",
+      "source" : "d54bead4b63dc9a5.txt",
+      "type" : "text/plain",
+      "size" : 112
+    }, {
+      "uid" : "60854a5177235527",
+      "name" : "Element of browser log",
+      "source" : "60854a5177235527.txt",
+      "type" : "text/plain",
+      "size" : 112
+    }, {
+      "uid" : "1f912431271bccc3",
+      "name" : "Element of browser log",
+      "source" : "1f912431271bccc3.txt",
+      "type" : "text/plain",
+      "size" : 112
+    }, {
+      "uid" : "b65f962340c6f8a",
+      "name" : "Element of browser log",
+      "source" : "b65f962340c6f8a.txt",
+      "type" : "text/plain",
+      "size" : 112
+    }, {
+      "uid" : "bdd098c3a4f8a1c1",
+      "name" : "Element of browser log",
+      "source" : "bdd098c3a4f8a1c1.txt",
+      "type" : "text/plain",
+      "size" : 112
+    }, {
+      "uid" : "11bfc181f598ec7b",
+      "name" : "Element of browser log",
+      "source" : "11bfc181f598ec7b.txt",
+      "type" : "text/plain",
+      "size" : 112
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 10,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Создание нового контрагента"
+  }, {
+    "name" : "host",
+    "value" : "192.168.0.7"
+  }, {
+    "name" : "thread",
+    "value" : "74505@192.168.0.7.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "org.example.lesson06.homeWork.CounterpartiesPageObjectTest"
+  }, {
+    "name" : "testClass",
+    "value" : "org.example.lesson06.homeWork.CounterpartiesPageObjectTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginInCrmWithCounterpartiesPageObjectTest"
+  }, {
+    "name" : "suite",
+    "value" : "org.example.lesson06.homeWork.CounterpartiesPageObjectTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fcf43f95781f3fe0.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,102 @@
+{
+  "uid" : "9811dc7171e11ce5",
+  "name" : "checkPageOfCompanyMailGroupRu()",
+  "fullName" : "org.example.lesson05.homeWork.AddBookmarkTest.checkPageOfCompanyMailGroupRu",
+  "historyId" : "51131162c5cc2249415e113f2f12a85f",
+  "time" : {
+    "start" : 1631632216183,
+    "stop" : 1631632229124,
+    "duration" : 12941
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setupBrowser",
+    "time" : {
+      "start" : 1631632216183,
+      "stop" : 1631632224652,
+      "duration" : 8469
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "registerDriver",
+    "time" : {
+      "start" : 1631632215660,
+      "stop" : 1631632216180,
+      "duration" : 520
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1631632228808,
+      "stop" : 1631632229124,
+      "duration" : 316
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "192.168.0.7"
+  }, {
+    "name" : "thread",
+    "value" : "74505@192.168.0.7.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "org.example.lesson05.homeWork.AddBookmarkTest"
+  }, {
+    "name" : "testClass",
+    "value" : "org.example.lesson05.homeWork.AddBookmarkTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkPageOfCompanyMailGroupRu"
+  }, {
+    "name" : "suite",
+    "value" : "org.example.lesson05.homeWork.AddBookmarkTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9811dc7171e11ce5.json",
+  "parameterValues" : [ ]
+}

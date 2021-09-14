@@ -1,5 +1,6 @@
 package org.example.lesson06;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -14,6 +15,7 @@ public class ExpensesSubMenu extends BaseView {
     @FindBy(xpath = "//span[text()='Заявки на расходы']")
     public WebElement expensesRequestsMenuItem;
 
+    @Step("Перейти на страницу заявок на расходы")
     public void goToExpensesRequestsPage() {
         expensesRequestsMenuItem.click();
         webDriverWait.until(

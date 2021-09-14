@@ -1,5 +1,6 @@
 package org.example.lesson06.homeWork;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -15,6 +16,7 @@ public class NavigationCrmMenu extends BaseCrmView {
     @FindBy(xpath = itemOfCounterpartiesXpathLocator)
     public WebElement navigationCrmMenuItems;
 
+    @Step("Открыть навигационное меню")
     public void openNavigationCrmMenuItem() {
         Actions actions = new Actions(driver);
         WebElement projectMenuElement = driver.findElement(By.xpath(NavigationCrmMenu.itemOfCounterpartiesXpathLocator));

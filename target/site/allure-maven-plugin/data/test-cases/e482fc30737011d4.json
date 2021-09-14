@@ -1,0 +1,102 @@
+{
+  "uid" : "e482fc30737011d4",
+  "name" : "checkToCreateNewProject()",
+  "fullName" : "org.example.lesson05.homeWork.CreateCrmUserTest.checkToCreateNewProject",
+  "historyId" : "f072eb06237cc029c400e975b6d3d68c",
+  "time" : {
+    "start" : 1631632242113,
+    "stop" : 1631632269237,
+    "duration" : 27124
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setupBrowser",
+    "time" : {
+      "start" : 1631632242113,
+      "stop" : 1631632250505,
+      "duration" : 8392
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "registerDriver",
+    "time" : {
+      "start" : 1631632242096,
+      "stop" : 1631632242111,
+      "duration" : 15
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1631632269130,
+      "stop" : 1631632269237,
+      "duration" : 107
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "192.168.0.7"
+  }, {
+    "name" : "thread",
+    "value" : "74505@192.168.0.7.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "org.example.lesson05.homeWork.CreateCrmUserTest"
+  }, {
+    "name" : "testClass",
+    "value" : "org.example.lesson05.homeWork.CreateCrmUserTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkToCreateNewProject"
+  }, {
+    "name" : "suite",
+    "value" : "org.example.lesson05.homeWork.CreateCrmUserTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e482fc30737011d4.json",
+  "parameterValues" : [ ]
+}

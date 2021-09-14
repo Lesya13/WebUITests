@@ -1,0 +1,117 @@
+{
+  "uid" : "69c2af25840e8da4",
+  "name" : "[2] 123322, false",
+  "fullName" : "org.example.lesson04.FunctionsTest.testIsPalindromeMethod2",
+  "historyId" : "d0b80aadc91e8b547c31bb2ffd3cb7ee",
+  "time" : {
+    "start" : 1631632215447,
+    "stop" : 1631632215448,
+    "duration" : 1
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeAll",
+    "time" : {
+      "start" : 1631632215307,
+      "stop" : 1631632215314,
+      "duration" : 7
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "beforeEach",
+    "time" : {
+      "start" : 1631632215447,
+      "stop" : 1631632215447,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "afterAll",
+    "time" : {
+      "start" : 1631632215478,
+      "stop" : 1631632215478,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1631632215448,
+      "stop" : 1631632215448,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "192.168.0.7"
+  }, {
+    "name" : "thread",
+    "value" : "74505@192.168.0.7.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "org.example.lesson04.FunctionsTest"
+  }, {
+    "name" : "testClass",
+    "value" : "org.example.lesson04.FunctionsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testIsPalindromeMethod2"
+  }, {
+    "name" : "suite",
+    "value" : "org.example.lesson04.FunctionsTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "69c2af25840e8da4.json",
+  "parameterValues" : [ ]
+}

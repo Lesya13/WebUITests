@@ -1,0 +1,1 @@
+{"uuid":"610570dd-f0bc-4f65-ac23-ae34be93388d","name":"testOurException()","children":["9339d9cd-f334-458d-ba53-20ac26bfca1d"],"befores":[{"name":"createBox","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1631632215637,"stop":1631632215637}],"afters":[],"links":[],"start":1631632215636,"stop":1631632215640}

@@ -1,0 +1,1 @@
+{"uuid":"3ba1a297-d1aa-4f14-9896-36c622fcd8df","name":"checkExceptionWhenTryToMixEmptyBox()","children":["aa386dc2-1475-4239-9c5e-c872754a2c37"],"befores":[{"name":"createBox","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1631632215484,"stop":1631632215485}],"afters":[],"links":[],"start":1631632215482,"stop":1631632215635}

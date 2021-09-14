@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: org.example.lesson06.homeWorkHabr.HabrLogoutPageTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 11.006 s <<< FAILURE! - in org.example.lesson06.homeWorkHabr.HabrLogoutPageTest
+loginInHabrWithHabrLogoutPageTest  Time elapsed: 10.993 s  <<< ERROR!
+java.lang.NullPointerException
+	at org.example.lesson06.homeWorkHabr.HabrLogoutPageTest.loginInHabrWithHabrLogoutPageTest(HabrLogoutPageTest.java:11)
+

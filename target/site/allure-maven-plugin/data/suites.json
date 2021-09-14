@@ -1,0 +1,516 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "org.example.AppTest",
+    "children" : [ {
+      "name" : "shouldAnswerWithTrue()",
+      "uid" : "d604765f7de35949",
+      "parentUid" : "e6c9f2e1afc2c8bc1f989dd6ca005204",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631632215034,
+        "stop" : 1631632215056,
+        "duration" : 22
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "shouldAnswerWithTrue2()",
+      "uid" : "705d92e0de95cf87",
+      "parentUid" : "e6c9f2e1afc2c8bc1f989dd6ca005204",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631632215236,
+        "stop" : 1631632215236,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e6c9f2e1afc2c8bc1f989dd6ca005204"
+  }, {
+    "name" : "org.example.lesson04.AssumptionsTest",
+    "children" : [ {
+      "name" : "testAssumption()",
+      "uid" : "e18b48624c2833fd",
+      "parentUid" : "405705f0ceeae3d6df5b3b8779f67a16",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1631632215244,
+        "stop" : 1631632215248,
+        "duration" : 4
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "assertAllTest()",
+      "uid" : "fc99018667e8db50",
+      "parentUid" : "405705f0ceeae3d6df5b3b8779f67a16",
+      "status" : "failed",
+      "time" : {
+        "start" : 1631632215270,
+        "stop" : 1631632215285,
+        "duration" : 15
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "405705f0ceeae3d6df5b3b8779f67a16"
+  }, {
+    "name" : "org.example.lesson04.FunctionsTest",
+    "children" : [ {
+      "name" : "[1] null, true",
+      "uid" : "cdcd8f31ecbba808",
+      "parentUid" : "8762e54856f52e4295016110d0eb1342",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631632215340,
+        "stop" : 1631632215367,
+        "duration" : 27
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[2] Cat{name='Bars', age=12}, true",
+      "uid" : "b2be78d44b9f0d4a",
+      "parentUid" : "8762e54856f52e4295016110d0eb1342",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631632215378,
+        "stop" : 1631632215380,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[3] Cat{name='Push', age=10}, false",
+      "uid" : "a88cfd56cf2c2f2a",
+      "parentUid" : "8762e54856f52e4295016110d0eb1342",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631632215384,
+        "stop" : 1631632215386,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[1] 123321, true",
+      "uid" : "c4d94df1bb157d22",
+      "parentUid" : "8762e54856f52e4295016110d0eb1342",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631632215438,
+        "stop" : 1631632215440,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[2] 123322, false",
+      "uid" : "69c2af25840e8da4",
+      "parentUid" : "8762e54856f52e4295016110d0eb1342",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631632215447,
+        "stop" : 1631632215448,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testGivenEvenNumberWhenCheckIsEvenThenTrue()",
+      "uid" : "a3e79d76f90074e8",
+      "parentUid" : "8762e54856f52e4295016110d0eb1342",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631632215451,
+        "stop" : 1631632215452,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[1] 123321",
+      "uid" : "d964009b807a342d",
+      "parentUid" : "8762e54856f52e4295016110d0eb1342",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631632215458,
+        "stop" : 1631632215459,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[2] 567765",
+      "uid" : "5b50f818c5a0625a",
+      "parentUid" : "8762e54856f52e4295016110d0eb1342",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631632215463,
+        "stop" : 1631632215464,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testIsNumberPositive()",
+      "uid" : "fff9b00b10892670",
+      "parentUid" : "8762e54856f52e4295016110d0eb1342",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631632215469,
+        "stop" : 1631632215471,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Проверка метода isPrime с непростым числом",
+      "uid" : "70078bd31c2c6a20",
+      "parentUid" : "8762e54856f52e4295016110d0eb1342",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631632215474,
+        "stop" : 1631632215475,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "8762e54856f52e4295016110d0eb1342"
+  }, {
+    "name" : "org.example.lesson04.BoxTest.WhenEmpty",
+    "children" : [ {
+      "name" : "checkExceptionWhenTryToMixEmptyBox()",
+      "uid" : "812afb84d3ff0d61",
+      "parentUid" : "c7bb4995af0d7b8282ad22acdfba05b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631632215483,
+        "stop" : 1631632215634,
+        "duration" : 151
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testOurException()",
+      "uid" : "810265989dd62476",
+      "parentUid" : "c7bb4995af0d7b8282ad22acdfba05b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631632215637,
+        "stop" : 1631632215638,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "c7bb4995af0d7b8282ad22acdfba05b9"
+  }, {
+    "name" : "org.example.lesson04.BoxTest.WhenEmpty.WhenIsBalls",
+    "children" : [ {
+      "name" : "ballAdditionTest()",
+      "uid" : "ab7946b4bb2879b3",
+      "parentUid" : "5ae256139bc694adb18b45e20b1f071d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631632215643,
+        "stop" : 1631632215645,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "5ae256139bc694adb18b45e20b1f071d"
+  }, {
+    "name" : "org.example.lesson04.homeWorkTest.TriangleTest",
+    "children" : [ {
+      "name" : "testGivenThreeSidesOfTriangleNeedsToKnowTheSquareOfTriangle()",
+      "uid" : "b17721c0fd63d29c",
+      "parentUid" : "71c6e2fa9e7059f8681eebcb81f057b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631632215651,
+        "stop" : 1631632215652,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "71c6e2fa9e7059f8681eebcb81f057b4"
+  }, {
+    "name" : "org.example.lesson05.homeWork.AddBookmarkTest",
+    "children" : [ {
+      "name" : "checkPageOfCompanyMailGroupRu()",
+      "uid" : "9811dc7171e11ce5",
+      "parentUid" : "8690029349b42b13a59e97c91a207a35",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631632216183,
+        "stop" : 1631632229124,
+        "duration" : 12941
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "checkOutFromAccount()",
+      "uid" : "111c3d47d626ae8f",
+      "parentUid" : "8690029349b42b13a59e97c91a207a35",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631632229126,
+        "stop" : 1631632242094,
+        "duration" : 12968
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "8690029349b42b13a59e97c91a207a35"
+  }, {
+    "name" : "org.example.lesson05.homeWork.CreateCrmUserTest",
+    "children" : [ {
+      "name" : "checkToCreateNewProject()",
+      "uid" : "e482fc30737011d4",
+      "parentUid" : "4a634429d557c729a5bd2c0e959687e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631632242113,
+        "stop" : 1631632269237,
+        "duration" : 27124
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "createCrmUser()",
+      "uid" : "7575c381e52a1c43",
+      "parentUid" : "4a634429d557c729a5bd2c0e959687e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631632269249,
+        "stop" : 1631632284706,
+        "duration" : 15457
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "checkIsNewProjectExist()",
+      "uid" : "2b041cbd95492ac8",
+      "parentUid" : "4a634429d557c729a5bd2c0e959687e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631632284715,
+        "stop" : 1631632303139,
+        "duration" : 18424
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "checkTheUserExist()",
+      "uid" : "d37a3b563046c00d",
+      "parentUid" : "4a634429d557c729a5bd2c0e959687e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631632303143,
+        "stop" : 1631632316112,
+        "duration" : 12969
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "userWillCanToDeleteExistingProject()",
+      "uid" : "4d39bc2ff08d2b55",
+      "parentUid" : "4a634429d557c729a5bd2c0e959687e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631632316115,
+        "stop" : 1631632348077,
+        "duration" : 31962
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "4a634429d557c729a5bd2c0e959687e4"
+  }, {
+    "name" : "org.example.lesson05.ActionsExamplesTest",
+    "children" : [ {
+      "name" : "loginToDiaryWithCookie()",
+      "uid" : "11da072d7463a68f",
+      "parentUid" : "9d68dc277e0f222cb1f3a2e7f5ff2006",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631632348094,
+        "stop" : 1631632368522,
+        "duration" : 20428
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "jsExecutor()",
+      "uid" : "b88cf5486f374484",
+      "parentUid" : "9d68dc277e0f222cb1f3a2e7f5ff2006",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631632368525,
+        "stop" : 1631632398049,
+        "duration" : 29524
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "checkInstrumentsPaneColumnsChanging()",
+      "uid" : "fcd193f2f1bbd393",
+      "parentUid" : "9d68dc277e0f222cb1f3a2e7f5ff2006",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631632398057,
+        "stop" : 1631632420176,
+        "duration" : 22119
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "checkCellsColorChangingTest()",
+      "uid" : "cb553c9b412d669a",
+      "parentUid" : "9d68dc277e0f222cb1f3a2e7f5ff2006",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631632420182,
+        "stop" : 1631632431989,
+        "duration" : 11807
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9d68dc277e0f222cb1f3a2e7f5ff2006"
+  }, {
+    "name" : "org.example.IntegrationTest",
+    "children" : [ {
+      "name" : "shouldAnswerWithTrue()",
+      "uid" : "af5c659f70ac4739",
+      "parentUid" : "96e587dae57b80621580b398b3410903",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631632431993,
+        "stop" : 1631632431993,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "shouldAnswerWithTrue2()",
+      "uid" : "7eff11bffde8de1",
+      "parentUid" : "96e587dae57b80621580b398b3410903",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631632431995,
+        "stop" : 1631632431995,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "96e587dae57b80621580b398b3410903"
+  }, {
+    "name" : "org.example.lesson06.homeWorkHabr.HabrLogoutPageTest",
+    "children" : [ {
+      "name" : "loginInHabrWithHabrLogoutPageTest()",
+      "uid" : "202b72c4cd00bed9",
+      "parentUid" : "b0126bd6531eed99483cbf5abfd63735",
+      "status" : "broken",
+      "time" : {
+        "start" : 1631632432013,
+        "stop" : 1631632442998,
+        "duration" : 10985
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b0126bd6531eed99483cbf5abfd63735"
+  }, {
+    "name" : "org.example.lesson06.homeWork.CounterpartiesPageObjectTest",
+    "children" : [ {
+      "name" : "loginInCrmWithCounterpartiesPageObjectTest()",
+      "uid" : "fcf43f95781f3fe0",
+      "parentUid" : "591bba55ac98d0840f1da7dbf35d9aeb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631632443024,
+        "stop" : 1631632464265,
+        "duration" : 21241
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "591bba55ac98d0840f1da7dbf35d9aeb"
+  }, {
+    "name" : "org.example.lesson06.homeWork.CreateProjectPageTest",
+    "children" : [ {
+      "name" : "loginInCrmWithCounterpartiesPageObjectTest()",
+      "uid" : "b785caafc0260a32",
+      "parentUid" : "bac33ae77fd23358a8b9e8eba19fa98e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631632464286,
+        "stop" : 1631632490113,
+        "duration" : 25827
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "bac33ae77fd23358a8b9e8eba19fa98e"
+  }, {
+    "name" : "org.example.lesson06.PageObjectTest",
+    "children" : [ {
+      "name" : "loginInCrmWithPageObjectTest()",
+      "uid" : "fe41420d30b208fb",
+      "parentUid" : "04559fb875627750032d8a49beafba4c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631632490130,
+        "stop" : 1631632510949,
+        "duration" : 20819
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "04559fb875627750032d8a49beafba4c"
+  } ],
+  "name" : "suites"
+}

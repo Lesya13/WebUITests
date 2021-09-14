@@ -1,0 +1,87 @@
+{
+  "uid" : "ab7946b4bb2879b3",
+  "name" : "ballAdditionTest()",
+  "fullName" : "org.example.lesson04.BoxTest$WhenEmpty$WhenIsBalls.ballAdditionTest",
+  "historyId" : "4e236ba0bb017912bfe15d314f227ae6",
+  "time" : {
+    "start" : 1631632215643,
+    "stop" : 1631632215645,
+    "duration" : 2
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "createBox",
+    "time" : {
+      "start" : 1631632215644,
+      "stop" : 1631632215644,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "addBall",
+    "time" : {
+      "start" : 1631632215644,
+      "stop" : 1631632215644,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "192.168.0.7"
+  }, {
+    "name" : "thread",
+    "value" : "74505@192.168.0.7.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "org.example.lesson04.BoxTest$WhenEmpty$WhenIsBalls"
+  }, {
+    "name" : "testClass",
+    "value" : "org.example.lesson04.BoxTest$WhenEmpty$WhenIsBalls"
+  }, {
+    "name" : "testMethod",
+    "value" : "ballAdditionTest"
+  }, {
+    "name" : "suite",
+    "value" : "org.example.lesson04.BoxTest.WhenEmpty.WhenIsBalls"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ab7946b4bb2879b3.json",
+  "parameterValues" : [ ]
+}

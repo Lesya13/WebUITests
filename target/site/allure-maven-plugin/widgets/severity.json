@@ -1,0 +1,351 @@
+[ {
+  "uid" : "7575c381e52a1c43",
+  "name" : "createCrmUser()",
+  "time" : {
+    "start" : 1631632269249,
+    "stop" : 1631632284706,
+    "duration" : 15457
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e482fc30737011d4",
+  "name" : "checkToCreateNewProject()",
+  "time" : {
+    "start" : 1631632242113,
+    "stop" : 1631632269237,
+    "duration" : 27124
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7eff11bffde8de1",
+  "name" : "shouldAnswerWithTrue2()",
+  "time" : {
+    "start" : 1631632431995,
+    "stop" : 1631632431995,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "11da072d7463a68f",
+  "name" : "loginToDiaryWithCookie()",
+  "time" : {
+    "start" : 1631632348094,
+    "stop" : 1631632368522,
+    "duration" : 20428
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "705d92e0de95cf87",
+  "name" : "shouldAnswerWithTrue2()",
+  "time" : {
+    "start" : 1631632215236,
+    "stop" : 1631632215236,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b2be78d44b9f0d4a",
+  "name" : "[2] Cat{name='Bars', age=12}, true",
+  "time" : {
+    "start" : 1631632215378,
+    "stop" : 1631632215380,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fe41420d30b208fb",
+  "name" : "loginInCrmWithPageObjectTest()",
+  "time" : {
+    "start" : 1631632490130,
+    "stop" : 1631632510949,
+    "duration" : 20819
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cdcd8f31ecbba808",
+  "name" : "[1] null, true",
+  "time" : {
+    "start" : 1631632215340,
+    "stop" : 1631632215367,
+    "duration" : 27
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4d39bc2ff08d2b55",
+  "name" : "userWillCanToDeleteExistingProject()",
+  "time" : {
+    "start" : 1631632316115,
+    "stop" : 1631632348077,
+    "duration" : 31962
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fc99018667e8db50",
+  "name" : "assertAllTest()",
+  "time" : {
+    "start" : 1631632215270,
+    "stop" : 1631632215285,
+    "duration" : 15
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "fcf43f95781f3fe0",
+  "name" : "loginInCrmWithCounterpartiesPageObjectTest()",
+  "time" : {
+    "start" : 1631632443024,
+    "stop" : 1631632464265,
+    "duration" : 21241
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "202b72c4cd00bed9",
+  "name" : "loginInHabrWithHabrLogoutPageTest()",
+  "time" : {
+    "start" : 1631632432013,
+    "stop" : 1631632442998,
+    "duration" : 10985
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b88cf5486f374484",
+  "name" : "jsExecutor()",
+  "time" : {
+    "start" : 1631632368525,
+    "stop" : 1631632398049,
+    "duration" : 29524
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2b041cbd95492ac8",
+  "name" : "checkIsNewProjectExist()",
+  "time" : {
+    "start" : 1631632284715,
+    "stop" : 1631632303139,
+    "duration" : 18424
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ab7946b4bb2879b3",
+  "name" : "ballAdditionTest()",
+  "time" : {
+    "start" : 1631632215643,
+    "stop" : 1631632215645,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fcd193f2f1bbd393",
+  "name" : "checkInstrumentsPaneColumnsChanging()",
+  "time" : {
+    "start" : 1631632398057,
+    "stop" : 1631632420176,
+    "duration" : 22119
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e18b48624c2833fd",
+  "name" : "testAssumption()",
+  "time" : {
+    "start" : 1631632215244,
+    "stop" : 1631632215248,
+    "duration" : 4
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "a3e79d76f90074e8",
+  "name" : "testGivenEvenNumberWhenCheckIsEvenThenTrue()",
+  "time" : {
+    "start" : 1631632215451,
+    "stop" : 1631632215452,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fff9b00b10892670",
+  "name" : "testIsNumberPositive()",
+  "time" : {
+    "start" : 1631632215469,
+    "stop" : 1631632215471,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d964009b807a342d",
+  "name" : "[1] 123321",
+  "time" : {
+    "start" : 1631632215458,
+    "stop" : 1631632215459,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "810265989dd62476",
+  "name" : "testOurException()",
+  "time" : {
+    "start" : 1631632215637,
+    "stop" : 1631632215638,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "70078bd31c2c6a20",
+  "name" : "Проверка метода isPrime с непростым числом",
+  "time" : {
+    "start" : 1631632215474,
+    "stop" : 1631632215475,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "69c2af25840e8da4",
+  "name" : "[2] 123322, false",
+  "time" : {
+    "start" : 1631632215447,
+    "stop" : 1631632215448,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d37a3b563046c00d",
+  "name" : "checkTheUserExist()",
+  "time" : {
+    "start" : 1631632303143,
+    "stop" : 1631632316112,
+    "duration" : 12969
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b17721c0fd63d29c",
+  "name" : "testGivenThreeSidesOfTriangleNeedsToKnowTheSquareOfTriangle()",
+  "time" : {
+    "start" : 1631632215651,
+    "stop" : 1631632215652,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "111c3d47d626ae8f",
+  "name" : "checkOutFromAccount()",
+  "time" : {
+    "start" : 1631632229126,
+    "stop" : 1631632242094,
+    "duration" : 12968
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9811dc7171e11ce5",
+  "name" : "checkPageOfCompanyMailGroupRu()",
+  "time" : {
+    "start" : 1631632216183,
+    "stop" : 1631632229124,
+    "duration" : 12941
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "812afb84d3ff0d61",
+  "name" : "checkExceptionWhenTryToMixEmptyBox()",
+  "time" : {
+    "start" : 1631632215483,
+    "stop" : 1631632215634,
+    "duration" : 151
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cb553c9b412d669a",
+  "name" : "checkCellsColorChangingTest()",
+  "time" : {
+    "start" : 1631632420182,
+    "stop" : 1631632431989,
+    "duration" : 11807
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c4d94df1bb157d22",
+  "name" : "[1] 123321, true",
+  "time" : {
+    "start" : 1631632215438,
+    "stop" : 1631632215440,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5b50f818c5a0625a",
+  "name" : "[2] 567765",
+  "time" : {
+    "start" : 1631632215463,
+    "stop" : 1631632215464,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a88cfd56cf2c2f2a",
+  "name" : "[3] Cat{name='Push', age=10}, false",
+  "time" : {
+    "start" : 1631632215384,
+    "stop" : 1631632215386,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "af5c659f70ac4739",
+  "name" : "shouldAnswerWithTrue()",
+  "time" : {
+    "start" : 1631632431993,
+    "stop" : 1631632431993,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d604765f7de35949",
+  "name" : "shouldAnswerWithTrue()",
+  "time" : {
+    "start" : 1631632215034,
+    "stop" : 1631632215056,
+    "duration" : 22
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b785caafc0260a32",
+  "name" : "loginInCrmWithCounterpartiesPageObjectTest()",
+  "time" : {
+    "start" : 1631632464286,
+    "stop" : 1631632490113,
+    "duration" : 25827
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

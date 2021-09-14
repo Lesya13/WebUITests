@@ -1,5 +1,7 @@
 package org.example.lesson06.homeWork;
 
+import io.qameta.allure.Description;
+import io.qameta.allure.Story;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -7,8 +9,10 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static ru.yandex.qatools.htmlelements.matchers.WebElementMatchers.isDisplayed;
 
+@Story("Создание нового контрагента")
 public class CounterpartiesPageObjectTest extends BaseCrmTest {
     @Test
+    @Description("Тест логина и создание нового контрагента")
     void loginInCrmWithCounterpartiesPageObjectTest() throws InterruptedException {
         driver.get("https://crm.geekbrains.space/");
         new LoginCrmPage(driver)

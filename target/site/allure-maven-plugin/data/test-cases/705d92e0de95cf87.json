@@ -1,0 +1,57 @@
+{
+  "uid" : "705d92e0de95cf87",
+  "name" : "shouldAnswerWithTrue2()",
+  "fullName" : "org.example.AppTest.shouldAnswerWithTrue2",
+  "historyId" : "bff57c980ac37f209ae75258bd7d3469",
+  "time" : {
+    "start" : 1631632215236,
+    "stop" : 1631632215236,
+    "duration" : 0
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "192.168.0.7"
+  }, {
+    "name" : "thread",
+    "value" : "74505@192.168.0.7.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "org.example.AppTest"
+  }, {
+    "name" : "testClass",
+    "value" : "org.example.AppTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldAnswerWithTrue2"
+  }, {
+    "name" : "suite",
+    "value" : "org.example.AppTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "705d92e0de95cf87.json",
+  "parameterValues" : [ ]
+}

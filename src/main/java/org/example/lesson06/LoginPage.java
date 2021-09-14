@@ -1,5 +1,6 @@
 package org.example.lesson06;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -28,16 +29,19 @@ public class LoginPage extends BaseView {
     }
 
     //ниже 3 отдельных метода для входа
+    @Step("Заполнить поле логина")
     public LoginPage fillInputLogin(String login) {
         inputLogin.sendKeys(login);
         return this;
     }
 
+    @Step("Заполнить имя пароля")
     public LoginPage fillInputPassword(String password) {
         inputPassword.sendKeys(password);
         return this;
     }
 
+    @Step("Клик на кнопку логина")
     public MainPage clickLoginButton() {
         loginButton.click();
         return new MainPage(driver);

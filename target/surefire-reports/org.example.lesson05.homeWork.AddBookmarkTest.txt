@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: org.example.lesson05.homeWork.AddBookmarkTest
--------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 26.435 s - in org.example.lesson05.homeWork.AddBookmarkTest

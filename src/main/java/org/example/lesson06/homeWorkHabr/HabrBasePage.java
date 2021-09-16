@@ -11,12 +11,11 @@ public class HabrBasePage {
     WebDriverWait webDriverWait;
 
     public HabrBasePage(WebDriver driver) {
- //       this.driver = driver;
+        this.driver = driver;
         ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.addArguments("--disable-notifications");
-        driver = new ChromeDriver(chromeOptions);
- //       WebDriverWait webDriverWait = new WebDriverWait(driver, 5);
-        webDriverWait = new WebDriverWait(driver, 5);
+        this.driver = new ChromeDriver(chromeOptions);
+        webDriverWait = new WebDriverWait(this.driver, 5);
         PageFactory.initElements(driver, this);
     }
 }

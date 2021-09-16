@@ -1,1 +1,0 @@
-{"uuid":"479437dd-63bc-4faa-a47d-c7d1a5f0d66d","name":"HabrLogoutPageTest","children":["5843b1fc-580a-403e-b010-7e080ea85303"],"befores":[{"name":"registerDriver","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1631632432001,"stop":1631632432011}],"afters":[],"links":[],"start":1631632432001,"stop":1631632443006}

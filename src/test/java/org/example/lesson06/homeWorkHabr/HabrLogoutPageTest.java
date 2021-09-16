@@ -11,8 +11,8 @@ public class HabrLogoutPageTest extends HabrBaseTest{
         new HabrNavigationMenu(driver).clickOnTheButtonInto();
 
         new HabrLoginPage(driver)
-                .fillInputHabrLogin("")
-                .fillInputHabrPassword("")
+                .fillInputHabrLogin("olesia.geekbrains@yandex.ru")
+                .fillInputHabrPassword("geekBrains13@")
                 .clickLoginButton();
 
         new HabrLogoutPage(driver)

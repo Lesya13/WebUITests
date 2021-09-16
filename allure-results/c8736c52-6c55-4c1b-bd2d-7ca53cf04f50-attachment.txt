@@ -1,0 +1,1 @@
+https://assets.habr.com/habr-web/js/chunk-vendors.c51da914.js 111:27019 "Incorrect usage of googletag.Slot defineSizeMapping: Size mapping must be an array"
